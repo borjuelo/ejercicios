@@ -1,0 +1,51 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+    int numeroif = 0;
+            if (numeroif >0){
+            System.out.println("El número if es positivo");
+        }else if (numeroif<0){
+                System.out.println("El número if es negativo");
+            }else{
+                System.out.println("El número if es 0");
+            }
+
+    int numerowhile = 0;
+            while(numerowhile<3){
+                System.out.println("El numero while vale: "+numerowhile);
+                numerowhile=numerowhile+1;
+            }
+
+    int numerodowhile = 0;
+            do{
+                System.out.println("El numero do while vale: "+numerodowhile);
+                numerodowhile=numerodowhile+1;
+            }while (numerodowhile<0);
+
+
+            for(int numerofor=0;numerofor<=3;numerofor=numerofor+1){
+                System.out.println("El numero for vale "+numerofor);
+            }
+
+    var estacion ="Primavera";
+            switch(estacion){
+                case "Primavera":
+                    System.out.println("Es primavera");
+                    break;
+                case "Verano":
+                    System.out.println("Es verano");
+                    break;
+                case "Otoño":
+                    System.out.println("Es otoño");
+                    break;
+                case "Invierno":
+                    System.out.println("Es invierno");
+                    break;
+                default:
+                    System.out.println("Introduce una estación correcta . Por favor.");
+            }
+    }
+}
